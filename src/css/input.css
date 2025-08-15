@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../../node_modules/flowbite";
+
+body {
+    font-family: "Playwrite HU", cursive;
+}
+
+.header {
+    background-image: url(../images/header.png);
+    height: 700px;
+}
+
+
+.head-line {
+  position: relative;
+  display: inline-block; 
+  margin-bottom: 20px;
+}
+
+.head-line::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -12px; 
+  transform: translateX(-50%);
+  width: 85px; 
+  height: 3px; 
+  background-color: #8B5E35; 
+  border-radius: 2px;
+}
+
+
+
+.object-cover3{
+  height:357px;
+}
+.about .head-line::after{
+  background-color:#070d47;
+}
+.contact .head-line::after{
+  background-color:#070d47;
+  left: 15%;
+}
