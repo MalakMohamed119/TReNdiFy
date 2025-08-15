@@ -970,9 +970,6 @@
   .inset-0 {
     inset: calc(var(--spacing) * 0);
   }
-  .start-0 {
-    inset-inline-start: calc(var(--spacing) * 0);
-  }
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
@@ -1021,9 +1018,6 @@
       max-width: 96rem;
     }
   }
-  .m-auto {
-    margin: auto;
-  }
   .mx-auto {
     margin-inline: auto;
   }
@@ -1032,9 +1026,6 @@
   }
   .my-24 {
     margin-block: calc(var(--spacing) * 24);
-  }
-  .me-0 {
-    margin-inline-end: calc(var(--spacing) * 0);
   }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
@@ -1464,62 +1455,17 @@
   .h-6 {
     height: calc(var(--spacing) * 6);
   }
-  .h-8 {
-    height: calc(var(--spacing) * 8);
-  }
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
-  .h-11 {
-    height: calc(var(--spacing) * 11);
-  }
-  .h-11\/12 {
-    height: calc(11/12 * 100%);
-  }
   .h-14 {
     height: calc(var(--spacing) * 14);
-  }
-  .h-64 {
-    height: calc(var(--spacing) * 64);
-  }
-  .h-68 {
-    height: calc(var(--spacing) * 68);
-  }
-  .h-70 {
-    height: calc(var(--spacing) * 70);
-  }
-  .h-80 {
-    height: calc(var(--spacing) * 80);
-  }
-  .h-\[30\%\] {
-    height: 30%;
-  }
-  .h-\[40\%\] {
-    height: 40%;
-  }
-  .h-\[70\%\] {
-    height: 70%;
-  }
-  .h-\[78\%\] {
-    height: 78%;
-  }
-  .h-\[80\%\] {
-    height: 80%;
-  }
-  .h-\[80\] {
-    height: 80;
   }
   .h-\[calc\(100\%-1rem\)\] {
     height: calc(100% - 1rem);
   }
   .h-auto {
     height: auto;
-  }
-  .h-fit {
-    height: fit-content;
-  }
-  .h-full {
-    height: 100%;
   }
   .max-h-full {
     max-height: 100%;
@@ -1607,9 +1553,6 @@
       text-align: center;
     }
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -1621,12 +1564,6 @@
   }
   .w-10 {
     width: calc(var(--spacing) * 10);
-  }
-  .w-11 {
-    width: calc(var(--spacing) * 11);
-  }
-  .w-11\/12 {
-    width: calc(11/12 * 100%);
   }
   .w-14 {
     width: calc(var(--spacing) * 14);
@@ -1719,9 +1656,6 @@
   }
   .flex-shrink {
     flex-shrink: 1;
-  }
-  .border-collapse {
-    border-collapse: collapse;
   }
   .-translate-x-full {
     --tw-translate-x: -100%;
@@ -2108,9 +2042,6 @@
   .bg-gray-200 {
     background-color: var(--color-gray-200);
   }
-  .bg-gray-900 {
-    background-color: var(--color-gray-900);
-  }
   .bg-gray-900\/50 {
     background-color: color-mix(in srgb, #111827 50%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
@@ -2179,18 +2110,6 @@
     }
     .dark .apexcharts-canvas .apexcharts-datalabels-group .apexcharts-text& {
       fill: white !important;
-    }
-  }
-  .apexcharts-gridline {
-    stroke: var(--color-gray-200) !important;
-    .dark & {
-      stroke: var(--color-gray-700) !important;
-    }
-  }
-  .apexcharts-xcrosshairs {
-    stroke: var(--color-gray-200) !important;
-    .dark & {
-      stroke: var(--color-gray-700) !important;
     }
   }
   .apexcharts-ycrosshairs {
@@ -2505,9 +2424,6 @@
   .line-through {
     text-decoration-line: line-through;
   }
-  .underline {
-    text-decoration-line: underline;
-  }
   .opacity-0 {
     opacity: 0%;
   }
@@ -2672,39 +2588,9 @@
       outline-style: none;
     }
   }
-  .sm\:h-\[100\%\] {
-    @media (width >= 40rem) {
-      height: 100%;
-    }
-  }
-  .sm\:h-\[100\] {
-    @media (width >= 40rem) {
-      height: 100;
-    }
-  }
-  .sm\:h-\[100p\] {
-    @media (width >= 40rem) {
-      height: 100p;
-    }
-  }
-  .sm\:h-\[100px\] {
-    @media (width >= 40rem) {
-      height: 100px;
-    }
-  }
-  .sm\:h-\[400px\] {
-    @media (width >= 40rem) {
-      height: 400px;
-    }
-  }
   .sm\:w-1\/2 {
     @media (width >= 40rem) {
       width: calc(1/2 * 100%);
-    }
-  }
-  .sm\:w-full {
-    @media (width >= 40rem) {
-      width: 100%;
     }
   }
   .sm\:grid-cols-2 {
@@ -2730,61 +2616,6 @@
   .md\:hidden {
     @media (width >= 48rem) {
       display: none;
-    }
-  }
-  .md\:h-6 {
-    @media (width >= 48rem) {
-      height: calc(var(--spacing) * 6);
-    }
-  }
-  .md\:h-7 {
-    @media (width >= 48rem) {
-      height: calc(var(--spacing) * 7);
-    }
-  }
-  .md\:h-62 {
-    @media (width >= 48rem) {
-      height: calc(var(--spacing) * 62);
-    }
-  }
-  .md\:h-63 {
-    @media (width >= 48rem) {
-      height: calc(var(--spacing) * 63);
-    }
-  }
-  .md\:h-66 {
-    @media (width >= 48rem) {
-      height: calc(var(--spacing) * 66);
-    }
-  }
-  .md\:h-69 {
-    @media (width >= 48rem) {
-      height: calc(var(--spacing) * 69);
-    }
-  }
-  .md\:h-71 {
-    @media (width >= 48rem) {
-      height: calc(var(--spacing) * 71);
-    }
-  }
-  .md\:h-72 {
-    @media (width >= 48rem) {
-      height: calc(var(--spacing) * 72);
-    }
-  }
-  .md\:h-77 {
-    @media (width >= 48rem) {
-      height: calc(var(--spacing) * 77);
-    }
-  }
-  .md\:h-78 {
-    @media (width >= 48rem) {
-      height: calc(var(--spacing) * 78);
-    }
-  }
-  .md\:h-80 {
-    @media (width >= 48rem) {
-      height: calc(var(--spacing) * 80);
     }
   }
   .md\:w-5\/12 {
@@ -2837,41 +2668,6 @@
       padding: calc(var(--spacing) * 0);
     }
   }
-  .lg\:h-8 {
-    @media (width >= 64rem) {
-      height: calc(var(--spacing) * 8);
-    }
-  }
-  .lg\:h-80 {
-    @media (width >= 64rem) {
-      height: calc(var(--spacing) * 80);
-    }
-  }
-  .lg\:h-85 {
-    @media (width >= 64rem) {
-      height: calc(var(--spacing) * 85);
-    }
-  }
-  .lg\:h-88 {
-    @media (width >= 64rem) {
-      height: calc(var(--spacing) * 88);
-    }
-  }
-  .lg\:h-89 {
-    @media (width >= 64rem) {
-      height: calc(var(--spacing) * 89);
-    }
-  }
-  .lg\:h-90 {
-    @media (width >= 64rem) {
-      height: calc(var(--spacing) * 90);
-    }
-  }
-  .lg\:h-100 {
-    @media (width >= 64rem) {
-      height: calc(var(--spacing) * 100);
-    }
-  }
   .lg\:grid-cols-3 {
     @media (width >= 64rem) {
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -2880,11 +2676,6 @@
   .lg\:grid-cols-4 {
     @media (width >= 64rem) {
       grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
-  }
-  .xl\:w-full {
-    @media (width >= 80rem) {
-      width: 100%;
     }
   }
   .xl\:grid-cols-4 {
